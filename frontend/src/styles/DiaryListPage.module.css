@@ -1,0 +1,162 @@
+.page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.bgCircle1 {
+  position: fixed;
+  top: -120px;
+  right: -120px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: rgba(93, 202, 165, 0.12);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bgCircle2 {
+  position: fixed;
+  bottom: -80px;
+  left: -80px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: rgba(255, 224, 130, 0.18);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0 16px;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoEmoji {
+  font-size: 26px;
+}
+
+.logoText {
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+  color: var(--text-main);
+}
+
+.writeBtn {
+  background: var(--mint-main);
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 17px;
+  box-shadow: 0 4px 14px rgba(93, 202, 165, 0.25);
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.calendar {
+  background: var(--white);
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 16px rgba(93, 202, 165, 0.08);
+}
+
+.calHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.calTitle {
+  font-family: 'Gaegu', cursive;
+  font-size: 18px;
+  color: var(--text-main);
+}
+
+.calNav {
+  display: flex;
+  gap: 8px;
+}
+
+.calNavBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.calDay {
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-sub);
+  padding: 4px 0;
+}
+
+.calCell {
+  text-align: center;
+  padding: 4px 2px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: default;
+}
+
+.calCellWithDiary {
+  background: var(--mint-light);
+  cursor: pointer;
+}
+
+.calCellEmpty {
+  padding: 4px 2px;
+}
+
+.calDate {
+  font-size: 12px;
+  color: var(--text-sub);
+}
+
+.calEmoji {
+  font-size: 14px;
+}
+
+.sectionTitle {
+  font-family: 'Gaegu', cursive;
+  font-size: 16px;
+  color: var(--text-sub);
+  margin-bottom: 12px;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px 0;
+  color: var(--text-sub);
+  font-family: 'Gaegu', cursive;
+  font-size: 17px;
+  line-height: 1.8;
+}

@@ -1,0 +1,79 @@
+.card {
+  background: var(--white);
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(93, 202, 165, 0.08);
+  margin-bottom: 14px;
+  animation: fadeUp 0.4s ease both;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.mood {
+  font-size: 22px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-main);
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.photos {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.linkyBox {
+  background: var(--mint-light);
+  border-radius: 14px;
+  padding: 10px 14px;
+}
+
+.linkyLabel {
+  font-size: 12px;
+  color: var(--text-sub);
+  margin-bottom: 4px;
+}
+
+.linkyOneline {
+  font-family: 'Gaegu', cursive;
+  font-size: 15px;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.linkyCheerBox {
+  background: var(--yellow);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-family: 'Gaegu', cursive;
+  font-size: 14px;
+  color: var(--text-main);
+  line-height: 1.5;
+}

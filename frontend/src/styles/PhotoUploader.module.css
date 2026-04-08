@@ -1,0 +1,65 @@
+.area {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.addBtn {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  border: 2px dashed var(--border);
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 4px;
+  transition: all 0.18s;
+}
+
+.addBtnIcon {
+  font-size: 22px;
+}
+
+.addBtnText {
+  font-size: 11px;
+  color: var(--text-sub);
+}
+
+.preview {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  border: 1.5px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.removeBtn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(45, 74, 62, 0.65);
+  color: #fff;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.fileInput {
+  display: none;
+}

@@ -1,0 +1,41 @@
+.banner {
+  background: linear-gradient(135deg, var(--mint-light) 0%, #D4F4E8 100%);
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  padding: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  animation: fadeUp 0.4s ease both;
+}
+
+.emoji {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.desc {
+  font-size: 13px;
+  color: var(--text-sub);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.btn {
+  background: var(--mint-main);
+  color: #fff;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-family: 'Gaegu', cursive;
+  font-size: 18px;
+  box-shadow: 0 4px 14px rgba(93, 202, 165, 0.30);
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}

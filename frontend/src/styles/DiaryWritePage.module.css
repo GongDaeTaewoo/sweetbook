@@ -1,0 +1,185 @@
+.page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 20px 180px;
+  position: relative;
+  z-index: 1;
+}
+
+.bgCircle1 {
+  position: fixed;
+  top: -120px;
+  right: -120px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: rgba(93, 202, 165, 0.12);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bgCircle2 {
+  position: fixed;
+  bottom: -80px;
+  left: -80px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: rgba(255, 224, 130, 0.18);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0 16px;
+}
+
+.backBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dateText {
+  font-family: 'Gaegu', cursive;
+  font-size: 18px;
+  color: var(--text-sub);
+}
+
+.saveTopBtn {
+  background: var(--mint-main);
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.greeting {
+  margin-bottom: 28px;
+  animation: fadeUp 0.5s ease both;
+}
+
+.section {
+  background: var(--white);
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 16px rgba(93, 202, 165, 0.08);
+}
+
+.sectionLabel {
+  font-family: 'Gaegu', cursive;
+  font-size: 16px;
+  color: var(--text-sub);
+  margin-bottom: 14px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 180px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-main);
+  background: transparent;
+}
+
+.charCount {
+  text-align: right;
+  font-size: 12px;
+  color: var(--text-sub);
+  margin-top: 8px;
+}
+
+.linkyResponse {
+  background: var(--white);
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 16px rgba(93, 202, 165, 0.08);
+  animation: fadeUp 0.5s ease both;
+}
+
+.linkyResponseTitle {
+  font-family: 'Gaegu', cursive;
+  font-size: 15px;
+  color: var(--text-sub);
+  margin-bottom: 12px;
+}
+
+.linkyOneline {
+  background: var(--mint-light);
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-family: 'Gaegu', cursive;
+  font-size: 17px;
+  color: var(--text-main);
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.linkyCheerLabel {
+  font-size: 13px;
+  color: var(--text-sub);
+  margin-bottom: 6px;
+}
+
+.linkyCheer {
+  background: var(--yellow);
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-family: 'Gaegu', cursive;
+  font-size: 16px;
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+.bottomBar {
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, var(--bg) 70%, transparent);
+  padding: 16px 20px 16px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.saveBtn {
+  width: 100%;
+  max-width: 440px;
+  background: var(--mint-main);
+  color: #fff;
+  border-radius: 50px;
+  padding: 16px;
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+  box-shadow: 0 6px 20px rgba(93, 202, 165, 0.30);
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.saveBtnSaved {
+  background: var(--mint-dark);
+}
